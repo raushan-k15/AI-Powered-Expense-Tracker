@@ -1,7 +1,11 @@
 import axios from "axios";
 
+// const API = axios.create({
+//   baseURL: "http://localhost:8080"
+// });
+
 const API = axios.create({
-  baseURL: "http://localhost:8080"
+  baseURL: "https://ai-powered-expense-tracker-production.up.railway.app"
 });
 
 API.interceptors.request.use((config) => {
