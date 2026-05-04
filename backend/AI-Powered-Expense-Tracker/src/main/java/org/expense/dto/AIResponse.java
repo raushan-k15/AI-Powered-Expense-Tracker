@@ -7,16 +7,6 @@ import lombok.Data;
 @AllArgsConstructor
 public class AIResponse {
 
-    
-
-	public AIResponse(String insight) {
-		super();
-		this.insight = insight;
-	}
-
-	private String insight;
-    
-    
-    
+    private String insight;
 
 }
